@@ -6,8 +6,6 @@ This simple J2EE application was written for load testing Enterprise JavaBeans (
 An IntelliJ project is provided, which includes an application server configuration for JBoss 6.1.0. Once JBoss starts, and the war file has been deployed (which happens automatically in IntelliJ), the application can be accessed through the following URL:
 	http://localhost:8080/FibonacciStatelessEJB/index.jsp
 
-This application can be used in other application servers by deploying the out/artifacts/FibonacciStatelessEJB.war directory.
-
 
 Prerequisites
 -------------
@@ -30,12 +28,12 @@ Running in IntelliJ:
    3.  Deploy and/or run the project
    4.  Open, http://localhost:8080/FibonacciStatelessEJB/index.jsp
 
+
 Running directly in JBoss 6.1.0 (without IntelliJ):
 
    1.  Deploy the war package with, cp -R out/artifacts/FibonacciStatelessEJB.war /opt/jboss-6.1.0.Final/server/default/deploy/
    2.  Start JBoss with, /opt/jboss-6.1.0.Final/run.sh 
    3.  Open, http://localhost:8080/FibonacciStatelessEJB/index.jsp
-
 
 
 Author
