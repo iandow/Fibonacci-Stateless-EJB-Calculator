@@ -23,9 +23,10 @@ Usage
 Running in IntelliJ:
 
    1.  Open the project in IntelliJ
-   2.  Update the JBoss Run configs 
-   3.  Deploy and/or run the project
-   4.  Open, http://localhost:8080/FibonacciStatelessEJB/index.jsp
+   2.  Update the JBoss Run configs
+   3.  Update paths in Project Settings for Project, Modules, Libraries, and Artifacts 
+   4.  Deploy and/or run the project
+   5.  Open, http://localhost:8080/FibonacciStatelessEJB/index.jsp
 
 
 Running directly in JBoss 6.1.0 (without IntelliJ):
