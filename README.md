@@ -23,13 +23,15 @@ To be able to run this project, the following software must be installed on your
 Usage
 -----
 
-Running in IntelliJ: 
+Running in IntelliJ:
+
    1.  Open the project in IntelliJ
    2.  Update the JBoss Run configs 
    3.  Deploy and/or run the project
    4.  Open, http://localhost:8080/FibonacciStatelessEJB/index.jsp
 
 Running directly in JBoss 6.1.0 (without IntelliJ):
+
    1.  Deploy the war package with, cp -R out/artifacts/FibonacciStatelessEJB.war /opt/jboss-6.1.0.Final/server/default/deploy/
    2.  Start JBoss with, /opt/jboss-6.1.0.Final/run.sh 
    3.  Open, http://localhost:8080/FibonacciStatelessEJB/index.jsp
