@@ -29,8 +29,9 @@ Running in IntelliJ:
 	3. Deploy and/or run the project
 	4. Open, http://localhost:8080/FibonacciStatelessEJB/index.jsp
 
-Running directly in JBoss (without IntelliJ):
-  1. cp -R out/artifacts/FibonacciStatelessEJB.war /opt/jboss-6.1.0.Final/server/default/deploy/
+Running directly in JBoss 6.1.0 (without IntelliJ):
+  1. Deploy the war package with, cp -R out/artifacts/FibonacciStatelessEJB.war /opt/jboss-6.1.0.Final/server/default/deploy/
+  2. Start JBoss with, /opt/jboss-6.1.0.Final/run.sh 
   2. Open, http://localhost:8080/FibonacciStatelessEJB/index.jsp
 
 
