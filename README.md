@@ -1,7 +1,7 @@
 Fibonacci Stateless EJB Calculator
 ==================================
 
-This J2EE application was written for load testing Enterprise JavaBeans (EJB 3.0) technology in a JRE release 1.6 or later. Load is created by invoking stateless session beans which concurrently calculate Fibonacci sequences on an application server. Tests are started from a web browser after submitting load parameters from a JSP page.  Results are returned by a Servlet which reports a record of the completed Fibonacci calculations and graphs their processing time using Google Charts.
+This simple J2EE application was written for load testing Enterprise JavaBeans (EJB 3.0) technology in a JRE release 1.6 or later. Load is created by invoking stateless session beans which concurrently calculate Fibonacci sequences on an application server. Tests are started from a web browser after submitting load parameters from a JSP page.  Results are returned by a Servlet which reports a record of the completed Fibonacci calculations and graphs their processing time using Google Charts.
 
 An IntelliJ project is provided, which includes an application server configuration for JBoss 6.1.0. Once JBoss starts, the application can be accessed through the following URL after the war file has been deployed (which happens automatically in IntelliJ), http://localhost:8080/JBossSampleApp_war_exploded/FooServlet
 
