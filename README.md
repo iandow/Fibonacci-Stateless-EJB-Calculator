@@ -1,4 +1,4 @@
-Fibonacci Stateless EJB Calculator
+Stateless EJB-based Fibonacci Calculator
 ==================================
 
 This simple J2EE application was written for load testing Enterprise JavaBeans (EJB 3.0) technology. Load is created by invoking stateless session beans which concurrently calculate Fibonacci sequences on an application server. Tests are started from a web browser after submitting load parameters from a JSP page.  Results are returned by a Servlet which reports a record of the completed Fibonacci calculations and graphs their processing time using Google Charts.
