@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Fibonacci-stateless-ejb-calculator by iandow</title>
+    
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Fibonacci-stateless-ejb-calculator</h1>
+        <p>Load testing utility for stateless Enterprise JavaBeans technology  </p>
+        <p class="view"><a href="https://github.com/iandow/Fibonacci-Stateless-EJB-Calculator">View the Project on GitHub <small>iandow/Fibonacci-Stateless-EJB-Calculator</small></a></p>
+        <ul>
+          <li><a href="https://github.com/iandow/Fibonacci-Stateless-EJB-Calculator/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/iandow/Fibonacci-Stateless-EJB-Calculator/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/iandow/Fibonacci-Stateless-EJB-Calculator">Fork On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>Stateless EJB-based Fibonacci Calculator</h1>
+
+<p>This simple J2EE application was written for load testing Enterprise JavaBeans (EJB 3.0) technology. Load is created by invoking stateless session beans which concurrently calculate Fibonacci sequences on an application server. Tests are started from a web browser after submitting load parameters from a JSP page.  Results are returned by a Servlet which reports a record of the completed Fibonacci calculations and graphs their processing time using Google Charts.</p>
+
+<p>An IntelliJ project is provided, which includes an application server configuration for running with JBoss 6.1.0.</p>
+
+<h2>Prerequisites</h2>
+
+<p>To be able to run this project, the following software must be installed on your computer:</p>
+
+<ul>
+<li>Java Development Kit (JDK), version 1.6 or later.</li>
+<li>JBoss Application Server version 6.1.0</li>
+<li>A Web browser</li>
+<li>(optional) IntelliJ IDEA, version 10.5 or later</li>
+</ul><h2>Usage</h2>
+
+<p>Running in IntelliJ:</p>
+
+<ol>
+<li> Open the project in IntelliJ</li>
+<li> Update the JBoss Run configs</li>
+<li> Update paths in Project Settings for Project, Modules, Libraries, and Artifacts </li>
+<li> Deploy and/or run the project</li>
+<li> Open, http://localhost:8080/FibonacciStatelessEJB/index.jsp</li>
+</ol><p>Running directly in JBoss 6.1.0 (without IntelliJ):</p>
+
+<ol>
+<li> Deploy the war package with, cp -R out/artifacts/FibonacciStatelessEJB.war /opt/jboss-6.1.0.Final/server/default/deploy/</li>
+<li> Start JBoss with, /opt/jboss-6.1.0.Final/run.sh </li>
+<li> Open, http://localhost:8080/FibonacciStatelessEJB/index.jsp</li>
+</ol><h2>Author</h2>
+
+<p>Created by Ian Downard, March 2012.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/iandow">iandow</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+  </body>
+</html>
