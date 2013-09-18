@@ -1,4 +1,4 @@
-package fibo;
+package com.riverbed.test.fibo;
 import java.util.Collection;
 import javax.ejb.*;
 

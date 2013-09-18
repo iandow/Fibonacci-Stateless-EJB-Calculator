@@ -1,4 +1,4 @@
-package fibo;
+package com.riverbed.test.fibo;
 
 import java.io.*;
 import java.util.*;
@@ -16,7 +16,7 @@ import javax.servlet.http.*;
  * @author <a href="mailto:idownard@opnet.com">Ian Downard</a>
  */
 public class FiboServlet extends HttpServlet {
-    @EJB(name="fibo.FiboRemote")
+    @EJB(name="com.riverbed.test.fibo.FiboRemote")
     private FiboRemote fibo;
     @EJB
     private ConcurrencyManager concurrencyManager;

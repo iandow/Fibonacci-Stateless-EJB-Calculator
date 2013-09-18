@@ -1,4 +1,4 @@
-package fibo;
+package com.riverbed.test.fibo;
 
 public class FibonacciTask extends AbstractTask
 {

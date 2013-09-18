@@ -1,4 +1,4 @@
-package fibo;
+package com.riverbed.test.fibo;
 import javax.ejb.*;
 
 @Stateless
